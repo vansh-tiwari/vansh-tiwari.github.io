@@ -1,9 +1,192 @@
+
+<!DOCTYPE html>
 <html>
 <head>
-<title>ME</title>
-<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RMTiwari</title>
+	<style type="text/css">
+
+	#ruler {
+		height: 5px ;
+		background-color: rgb(51,82,110);
+		border-left: 0px ;
+		border-right: 0px ;
+	}
+
+	.btn {
+		background-color: rgb(51,82,110) ;
+		height: 75px ;
+		width: 300px;
+	}
+
+	.btntext {
+		color: white ;
+		font-family: sansPara ;
+		font-size: 20px ;
+	}
+
+
+
+	@font-face {
+		font-family: alegreya ;
+		src : url('alegreya-sans-sc/AlegreyaSansSC-Thin.ttf') ;
+	}
+
+	@font-face {
+		font-family: aldrich ;
+		src : url('aldrich/Aldrich-Regular.ttf');
+	}
+
+	@font-face {
+		font-family: sansPara ;
+		src : url('Encode_Sans_Condensed/EncodeSansCondensed-Regular.ttf') ;
+	}
+
+	#LargeTitle {
+		font-size: 50px ;
+		margin-top: 20px ;
+	}
+
+	#subTitle {
+		font-size: 15px ;
+	}
+
+	#profilePicture {
+		border-radius: 75px ;
+		border-color: red ;
+		width: 150px ;
+		height: 150px ;
+		animation: animateProfilePicture 1s 1 ;
+	}
+
+
+
+
+	@keyframes animateProfilePicture {
+		from {
+			height: 400px ;
+			width: 400px  ;
+			border-radius: 200px ;
+		}
+		to {
+			height: 150px ;
+			width: 150px ;
+			border-radius: 75px ;
+		}
+	}
+
+	@keyframes animateRuler {
+		from {
+			margin-right: 50% ;
+			margin-left: 50% ;
+		}
+
+		to {
+			margin-left: 10% ;
+			margin-right: 10% ;
+			height: 5px ;
+			background-color: rgb(51,82,110);
+			border-left: 0px ;
+			border-right: 0px ;
+		}
+	}
+
+	#para {
+		margin-left: 10% ;
+		margin-right: 10% ;
+		font-size: 20px ;
+	}
+
+	#rulerUnderProfile {
+			margin-left: 10% ;
+			margin-right: 10% ;
+			height: 5px ;
+			background-color: rgb(51,82,110);
+			border-left: 0px ;
+			border-right: 0px ;
+			animation: animateRuler 1s 1 ;
+	}
+
+	@media all and (min-width: 700px) {
+		#para {
+			width: 500px ;
+		}
+
+		#rulerUnderProfile {
+			margin-left: 30% ;
+			margin-right: 30% ;
+			height: 5px ;
+			background-color: rgb(51,82,110);
+			border-left: 0px ;
+			border-right: 0px ;
+			animation: animateRulerMaxWidth 1s 1 ;
+		}
+
+		@keyframes animateRulerMaxWidth {
+			from {
+				margin-right: 50% ;
+				margin-left: 50% ;
+			}
+
+			to {
+				margin-left: 30% ;
+				margin-right: 30% ;
+				height: 5px ;
+				background-color: rgb(51,82,110);
+				border-left: 0px ;
+				border-right: 0px ;
+			}
+	}
+
+	}
+
+
+
+
+	</style>
+	<script type="text/javascript">
+		
+	</script>
 </head>
 <body>
-<h1>HELLO WORLD, I am Lazy AF.</h1>
+	<div id="ruler"></div>
+	<center>
+		<br />
+		<img id="profilePicture" src="images/vansh.jpeg" />
+		<div>
+			<b><div id="LargeTitle" style="font-family: alegreya ;">Hey, I'm Raghuvansh</div></b>
+			<br />
+			<div id="subTitle" style="font-family: aldrich ;"> Android Developer</div>
+		</div>
+		<br />
+		<div id="rulerUnderProfile"></div>
+		<br />
+		<div>
+			<p id="para" style="font-family: sansPara ;">
+					I’m passionate about exploring digital and physical spaces, and the impact that design can have on people, communities, and businesses.
+				 </p>
+			<p id="para" style="font-family: sansPara ;">
+					
+				 </p>
+		</div>
+		<br><br>
+
+		<div><a href="https://github.com/vansh-tiwari" target="_blank">
+			<button class="btn">
+				<p class="btntext">GitHub</p>
+			</button></a>
+		</div>
+		<br>
+		<div><a href="mailto:tiwari1998@hotmail.com" target="_blank">
+			<button class="btn">
+				<p class="btntext">Contact Me</p>
+			</button></a>
+		</div>
+
+
+
+	</center>
+
 </body>
 </html>
+
