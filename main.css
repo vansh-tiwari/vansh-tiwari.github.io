@@ -1,3 +1,131 @@
-body{
-    background-color: bisque;
+body {
+  background-color: bisque;
+}
+
+#ruler {
+  height: 5px;
+  background-color: rgb(24, 136, 153);
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.btn {
+  background-color: rgb(24, 136, 153);
+  height: 75px;
+  width: 300px;
+}
+
+.btntext {
+  color: white;
+  font-family: sansPara;
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: alegreya;
+  src: url("alegreya-sans-sc/AlegreyaSansSC-Thin.ttf");
+}
+
+@font-face {
+  font-family: aldrich;
+  src: url("aldrich/Aldrich-Regular.ttf");
+}
+
+@font-face {
+  font-family: sansPara;
+  src: url("Encode_Sans_Condensed/EncodeSansCondensed-Regular.ttf");
+}
+
+#LargeTitle {
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+#subTitle {
+  font-size: 15px;
+}
+
+#profilePicture {
+  border-radius: 75px;
+  border-color: red;
+  width: 150px;
+  height: 150px;
+  animation: animateProfilePicture 1s 1;
+}
+
+@keyframes animateProfilePicture {
+  from {
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+  }
+  to {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+  }
+}
+
+@keyframes animateRuler {
+  from {
+    margin-right: 50%;
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 5px;
+    background-color: rgb(24, 136, 153);
+    border-left: 0px;
+    border-right: 0px;
+  }
+}
+
+#para {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 20px;
+}
+
+#rulerUnderProfile {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 5px;
+  background-color: rgb(24, 136, 153);
+  border-left: 0px;
+  border-right: 0px;
+  animation: animateRuler 1s 1;
+}
+
+@media all and (min-width: 700px) {
+  #para {
+    width: 500px;
+  }
+
+  #rulerUnderProfile {
+    margin-left: 30%;
+    margin-right: 30%;
+    height: 5px;
+    background-color: rgb(24, 136, 153);
+    border-left: 0px;
+    border-right: 0px;
+    animation: animateRulerMaxWidth 1s 1;
+  }
+
+  @keyframes animateRulerMaxWidth {
+    from {
+      margin-right: 50%;
+      margin-left: 50%;
+    }
+
+    to {
+      margin-left: 30%;
+      margin-right: 30%;
+      height: 5px;
+      background-color: rgb(24, 136, 153);
+      border-left: 0px;
+      border-right: 0px;
+    }
+  }
 }
