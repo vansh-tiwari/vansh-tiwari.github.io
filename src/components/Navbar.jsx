@@ -151,7 +151,7 @@ export const styles = {
   },
   mobileIcon: {
     height: '100%',
-    display: {xs: 'block', sx: 'block', md:'flex'},
+    display: {xs: 'block', sx: 'block', md:'none'},
     alignItems: 'center',
     color: theme.text_primary
   },
