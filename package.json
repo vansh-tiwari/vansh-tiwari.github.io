@@ -1,6 +1,6 @@
 {
-  "name": "3d-portfolio-website",
-  "version": "0.1.1",
+  "name": "react-portfolio",
+  "version": "0.1",
   "homepage": "https://vansh-tiwari.github.io",
   "private": true,
   "dependencies": {
