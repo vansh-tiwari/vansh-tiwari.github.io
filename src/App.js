@@ -45,8 +45,8 @@ function App() {
           <div>
             <Header />
             <Box sx={styles.wrapper}>
-              <Skills />
               <Experience />
+              <Skills />
             </Box>
             <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <Box sx={styles.wrapper}>

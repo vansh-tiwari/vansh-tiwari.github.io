@@ -103,7 +103,7 @@ export const experienceStyles = {
   skill: {
     fontSize: { xs: '12px', md: '15px' },
     fontWeight: '400',
-    color: theme.text_primary + 99,
+    color: theme.secondary,
   },
   itemWrapper: {
     display: 'flex',

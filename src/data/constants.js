@@ -18,7 +18,7 @@
 // };
 export const Bio = {
   name: "Raghuvansh Mani Tiwari",
-  roles: ["Senior Software Engineer", "Solution Engineer", "Software Developer", "Programmer"],
+  roles: ["Javascript", "Angular", "React"],
   description:
     "Innovative Frontend Developer with over 3 years of expertise in crafting dynamic and intuitive user interfaces. Proven proficiency in JavaScript, TypeScript, and leading frontend frameworks like Angular and React.",
   location: "Indore, Madhya Pradesh, India",

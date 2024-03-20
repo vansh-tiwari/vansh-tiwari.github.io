@@ -14,7 +14,7 @@ import Box from '@mui/material/Box';
 import { darkTheme as theme} from "../../helper/themes";
 
 const Header = () => {
-  const profileImg = "https://iili.io/JXa5x1e.png";
+  const profileImg = "https://avatars.githubusercontent.com/u/36481408";
   return (
     <Box id="About">
       <Box sx={styles.container}>
@@ -31,7 +31,7 @@ const Header = () => {
                   {Bio.name}
                 </Box>
                 <Box sx={styles.textLoop}>
-                  <Box sx={{...styles.span, display: {xs: 'none', md: 'block'}}}>I am a</Box>
+                  <Box sx={{...styles.span, display: {xs: 'none', md: 'block'}}}>I am good at</Box>
                   <Box sx={styles.span}>
                     <Typewriter
                       options={{
