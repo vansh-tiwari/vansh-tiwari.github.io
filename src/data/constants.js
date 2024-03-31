@@ -231,6 +231,28 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: 'Portfolio',
+    date: 'Mar 2024',
+    description: 'Made a portfolio by taking idea from existing portfolios in Internet',
+    image: 'https://iili.io/Jjht1u2.png',
+    tags: ['React', 'Animation', 'MUI'],
+    category: 'web app',
+    github: 'https://github.com/vansh-tiwari/vansh-tiwari.github.io',
+    webapp: 'https://vansh-tiwari.github.io',
+  },
+  {
+    id: 1,
+    title: 'Basic Pizza Shop',
+    date: 'Mar 2024',
+    description: "Made a pizza shop with it's functionalities",
+    image: 'https://iili.io/JjhtvwB.png',
+    tags: ['React', 'Redux', 'CSS'],
+    category: 'web app',
+    github: 'https://github.com/vansh-tiwari/pizza-shop',
+    webapp: 'https://vqgq4h-3000.csb.app/',
+  },
+  {
+    id: 2,
     title: 'Codechef Classroom',
     date: 'Jan 2021',
     description:
@@ -242,7 +264,7 @@ export const projects = [
     webapp: '',
   },
   {
-    id: 1,
+    id: 3,
     title: 'Trashtalk',
     date: 'May 2020',
     description:
@@ -254,7 +276,7 @@ export const projects = [
     webapp: '',
   },
   {
-    id: 2,
+    id: 4,
     title: 'Animozi',
     date: 'Jan 2018',
     description:
@@ -264,27 +286,5 @@ export const projects = [
     category: 'desktop app',
     github: 'https://drive.google.com/file/d/17GqLDBmUt1gMCUqXEo7V4acDroN4s_Fj/view',
     webapp: '',
-  },
-  {
-    id: 3,
-    title: 'Portfolio',
-    date: 'Mar 2024',
-    description: 'Made a portfolio by taking idea from existing portfolios in Internet',
-    image: 'https://iili.io/Jjht1u2.png',
-    tags: ['React', 'Animation', 'MUI'],
-    category: 'web app',
-    github: 'https://github.com/vansh-tiwari/vansh-tiwari.github.io',
-    webapp: 'https://vansh-tiwari.github.io',
-  },
-  {
-    id: 4,
-    title: 'Basic Pizza Shop',
-    date: 'Mar 2024',
-    description: "Made a pizza shop with it's functionalities",
-    image: 'https://iili.io/JjhtvwB.png',
-    tags: ['React', 'Redux', 'CSS'],
-    category: 'web app',
-    github: 'https://github.com/vansh-tiwari/pizza-shop',
-    webapp: 'https://vqgq4h-3000.csb.app/',
   },
 ]
